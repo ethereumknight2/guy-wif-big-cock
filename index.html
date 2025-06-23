@@ -408,6 +408,52 @@
         gap: 30px;
         margin: 60px 0;
       }
+
+      .hero-section, 
+        .hero-section h2, 
+        .hero-section p,
+        .feature-card,
+        .feature-card h3,
+        .feature-card p,
+        .btn {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h2 {
+                font-family: inherit !important;
+                font-weight: bold !important;
+            }
+            
+            .hero-section p {
+                font-family: inherit !important;
+                font-weight: normal !important;
+            }
+            
+            .feature-card h3 {
+                font-family: inherit !important;
+                font-weight: bold !important;
+            }
+            
+            .feature-card p {
+                font-family: inherit !important;
+                line-height: 1.5 !important;
+            }
+            
+            .btn {
+                font-family: inherit !important;
+                font-weight: bold !important;
+            }
+        }
+
+        .hero-section,
+        .feature-card {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
       .feature-card {
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
