@@ -13,22 +13,26 @@
         box-sizing: border-box;
       }
 
-      body {
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        background: linear-gradient(
-          45deg,
-          #ff6b35,
-          #f7931e,
-          #ffd23f,
-          #06ffa5,
-          #1eb0ff,
-          #8a2be2
-        );
-        background-size: 400% 400%;
-        animation: gradientShift 8s ease infinite;
-        overflow-x: hidden;
-        color: #fff;
-      }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(
+    45deg,
+    #ff6b35,
+    #f7931e,
+    #ffd23f,
+    #06ffa5,
+    #1eb0ff,
+    #8a2be2
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+  overflow-x: hidden;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
       @keyframes gradientShift {
         0% {
